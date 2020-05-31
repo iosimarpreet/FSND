@@ -8,4 +8,4 @@ DEBUG = True
 
 # Connect to the database
 
-SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://simarpreetsingh:@localhost:5432/fyurr'
+SQLALCHEMY_DATABASE_URI = f'postgresql+psycopg2://{os.env["FYURR_DB_USER"]}:{os.env["FYURR_DB_PASSWORD"]}@{os.env["FYURR_DB_HOST"]}:5432/{os.env["FYURR_DB_NAME"]}'
