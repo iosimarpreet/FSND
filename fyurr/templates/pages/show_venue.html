@@ -6,6 +6,8 @@
 		<h1 class="monospace">
 			{{ venue.name }}
 		</h1>
+		<button class="btn-danger"><a href="/venues/delete/{{ venue.id }}" style="color: white">Delete Venue </a> </button>
+		<button class="btn-info"><a href="/venues/{{ venue.id }}/edit" style="color: black">Edit Venue </a> </button>
 		<p class="subtitle">
 			ID: {{ venue.id }}
 		</p>
