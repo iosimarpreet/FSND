@@ -3,6 +3,8 @@
 
 ## As Submitted
 
+GitHub link for the submission: [Link](https://github.com/iosimarpreet/FSND/tree/projects/fyurr_submission)
+
 ### Dev Setup
 
 1. Clone the repository & Navigate to the Fyurr App
